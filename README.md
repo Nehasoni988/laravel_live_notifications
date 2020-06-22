@@ -35,7 +35,6 @@ To setup this project with your credentials, follow these steps-
       ```sh
       * * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
       ```
-      ```
   - Now open the customer window and you will get the notifications of order status in every minute without update status from admin panel. ( Only if order is of "current date" and not of "handed status" )
   - You can change the notification receiving time from "Commands/SendOrderStatusUpdateNotification.php".
 
